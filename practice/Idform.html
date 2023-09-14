@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>IDForm</title>
+        <style type="text/css">
+            label{
+                width:100px;
+                display:inline-block;
+                margin-top:10px;
+            }
+            #form{
+                border-radius:10px;
+                background-color: #2f7b99;
+                color: black;
+                width: 500px;
+                font-size: large;
+                font-family: algeria;
+                margin: 10px;
+                padding: 10px;
+                margin: auto;
+                background-image:url(..//images/ID.png);
+            }
+            #Submit{
+                display: inline;
+                width: 60%;
+                margin: 25px;
+                background-color: hsl(199, 66%, 58%);
+            }
+            #clear{
+                display: inline;
+                width: 60%;
+                margin: 20px;
+                background-color: hwb(184 25% 15%);
+            }
+            h2{
+                text-align: center;
+                text-decoration: underline;
+            }
+            #details{
+                display: grid;
+                margin: auto;
+                grid-template-columns: auto auto auto;
+                width:60%;
+            }
+            input{
+                border-style:groove;
+                border-radius: 5px;
+                margin: 2px;
+            }
+            </style>
+        <body>
+            <div id="form">
+                <h2>IDENTITY CARD</h2>
+                <form><div id="details">
+                    <label>Name:</label>
+                    <input type="text" name="name" required/><br>
+                    <label>Roll No:</label>
+                    <input type="number" name="Roll" required/><br>
+                    <label>Blood Group:</label>
+                    <input type="text" name="Blood" required/><br>
+                    <label>DOB:</label>
+                    <input type="date" name="Date" required/><br>
+                    <input type="Submit" name="Submit" id="Submit">
+                    <input type="reset" value="clear" id="clear">
+                </div>
+                </form>
+            </div>
+        </body>
+    </head>
+</html>

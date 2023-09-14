@@ -1,0 +1,11 @@
+.container{
+    background-color: white;
+}
+.top{
+    width:35%;
+    display:flex;
+    color:black;
+    align-items: center;
+    font-size:medium;
+    justify-content: space-around;
+}

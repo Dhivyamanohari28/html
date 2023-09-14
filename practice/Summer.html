@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding:0%;
+            margin: 0%;
+            font-family: sans-serif;
+        }
+        body{
+            background-color: antiquewhite;
+            background-size: cover;
+            background-image:url("../images/Summer.webp");
+        }
+        .registration{
+            position: absolute;
+            top:50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            width:350px;
+        }
+        h1{
+            font-size: 40px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        p{
+            font-size: 20px;
+            margin:15px;
+        }
+        input{
+            font-size: 16px;
+            padding:15px 10px;
+            width: 100%;
+            border: 0;
+            border-radius: 5px;
+            outline: none;
+        }
+        button{
+            font-size: 18px;
+            font-weight: bold;
+            margin: 20px 0;
+            padding: 10px 15px;
+            width: 50%;
+            border:0;
+            border-radius: 5px;
+        }
+        button:hover{
+            color: red;
+        }
+        .gender input{
+            padding: 0px;            
+        }
+    </style>
+</head>
+<body>
+    <div class="registration">
+        <h1>REGISTRATION</h1>
+        <form action="#" method="post">
+            <p>Full Name:</p>
+            <input type="text" name="name" placeholder="FULL NAME">
+            <p>User name:</p>
+            <input type="text" name="username" placeholder="User name">
+            <p>Email:</p>
+            <input type="email" name="email" placeholder="email">
+            <p>Password:</p>
+            <input type="password" name="password" placeholder="Password"><br>
+            <div class="gender">
+                <p>Gender</p>
+                <label for="">male</label>
+                <input type="radio" name="gender">
+                <label for="">female</label>
+                <input type="radio" name="gender">
+                </div>
+            <label for=""><h4>Address</h4></label><br>
+            <input type="text" class="add"><br>
+            <label for=""><h4>Address LINE TWO</h4></label><br>
+            <input type="text" class="add"><br>
+            <label for=""><h4>Postal/Zip code</label><br><br>
+            <input type="number" class="add"><br>
+            <label for=""><h4></h4></label>            
+        </form>
+    </div>
+</body>
+</html>

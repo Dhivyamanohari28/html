@@ -1,0 +1,91 @@
+table,th,td{
+    border-width:1px;
+    border-color: #12124e;
+    border-style: solid;
+    text-align:center;
+    border-collapse: collapse;
+    /* background-color: #51f3eb; */
+    color: #6e106e;
+}
+/* p:hover{
+    background-color: hsl(0, 39%, 62%);
+} */
+tr:hover{
+    background-color: #000;
+}
+a:visited{
+    color:#6e106e;
+}
+a:link{
+    color:antiquewhite;
+}
+/* td,th{
+    width:30px;
+} */
+@font-face{
+    font-family:"Black";
+    src: url("BlackOpsOne-Regular.")
+}
+p{
+    background:rgb(68, 218, 63); 
+    color:whitesmoke;
+    font-size:20px;
+    font-family:"Black","Georgia";
+    font-weight:500;
+    letter-spacing:2px;
+}
+h1,h2,h3{
+    font-size:25px;
+    font-family:'Algeria';
+    font-weight:500;
+    letter-spacing:0.5px;
+}
+h1{
+    background:black; 
+    color:white;
+}
+h2{
+    background:#e4348c; 
+    color:#12124e;
+}
+h3{
+    background:#51f3eb; 
+    color:#12124e;
+}
+body{
+    background:white; 
+}
+img{
+    float:right;
+    clear:both;
+}
+.his{
+    background:orange;
+    color:black;
+    font-size:27px;
+}
+.a{
+    float: left;
+}
+.r{
+    float: left;
+}
+.h{
+    float: left;
+}
+.f{
+    float: left;
+}
+ul{
+    list-style-image: url(../images/Garena\ \(1\).png);
+    background:lightgreen;
+    color:green;
+}
+ol{
+    background:#73dd0f;
+    color:rgb(3, 104, 3);
+}
+dl{
+    background:#8ee48e;
+    color:rgb(1, 34, 1);
+}
